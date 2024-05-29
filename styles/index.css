@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Esteban&family=Poiret+One&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poiret One";
+    font-weight: bolder;
+    line-height: 1.7;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url('../assets/bluesky.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+#mainContainer {
+    height: 75%;
+    margin: 50px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.39);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.1px);
+    -webkit-backdrop-filter: blur(6.1px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#birthdayContent {
+    position: relative;
+}
+
+#birthdayContent img {
+    position: absolute;
+    object-fit: cover;
+    height: 100%;
+    width: auto;
+}
+
+#birthdayContent .page1 {
+    width: 265px;
+    white-space: pre-wrap;
+    position: relative;
+    margin: 15px 25px;
+    padding-left: 5px;
+    align-content: start;
+}
+
+#birthdayContent .page2 {
+    width: 265px;
+    white-space: pre-wrap;
+    position: relative;
+    margin: 15px 25px;
+}
+
+#textContent {
+    display: flex;
+    flex-direction: row;
+}
+
+#birthdayGif img {
+    height: auto;
+    width: 300px;
+    margin-left: 150px;
+}
